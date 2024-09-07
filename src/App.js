@@ -25,6 +25,7 @@ function App() {
             <>
               {/* If no token, show Login and Register routes */}
               <Route exact path='/login' element={<Login />} />
+              <Route exact path='/' element={<Register />} />
               <Route exact path='/register' element={<Register />} />
               <Route exact path='/product' element={<Login />} /> {/* Redirect to Login for Product */}
             </>
